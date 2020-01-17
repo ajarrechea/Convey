@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Description>Convey.Persistence.ArangoDB</Description>
+    <Authors>DevMentors.io</Authors>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <LangVersion>Latest</LangVersion>
+    <AssemblyName>Convey.Persistence.ArangoDB</AssemblyName>
+    <Title>Convey.Persistence.ArangoDB</Title>
+    <PackageId>Convey.Persistence.ArangoDB</PackageId>
+    <PackageTags>Convey.Persistence.ArangoDB</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Convey\src\Convey\Convey.csproj" />
+    <ProjectReference Include="..\..\..\Convey.CQRS.Queries\src\Convey.CQRS.Queries\Convey.CQRS.Queries.csproj" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <PackageReference Include="ArangoDB.Client" Version="0.7.70" />
+  </ItemGroup>
+</Project>
